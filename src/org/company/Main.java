@@ -1,8 +1,12 @@
 package org.company;
 
+import org.company.Controller.ProductosApp;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        ProductosApp productosApp = new ProductosApp();
+
+        productosApp.comienzoApp();
     }
 }
