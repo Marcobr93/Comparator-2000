@@ -1,9 +1,8 @@
 package org.company.Controller;
 
-import org.company.Model.Ordenación;
+import org.company.Model.Menu;
 import org.company.Model.Producto;
 
-import java.util.Date;
 import java.util.Scanner;
 
 /**
@@ -11,7 +10,7 @@ import java.util.Scanner;
  */
 public class ProductosApp {
 
-    private Ordenación ordenación = new Ordenación();
+    private Menu menu = new Menu();
 
 
     public void comienzoApp(){
@@ -20,22 +19,22 @@ public class ProductosApp {
         while ((opcion = mostrarMenu() ) !=0){
             switch (opcion){
                 case 1:
-                    ordenación.añadirProducto(preguntarProductoInfo());
+                    menu.añadirProducto(preguntarProductoInfo());
                     break;
                 case 2:
-                    ordenación.listaProducto();
+                    menu.listaProducto();
                     break;
                 case 3:
-                    ordenación.ordenacionPorNombre();
+                    menu.ordenacionPorNombre();
                     break;
                 case 4:
-                    ordenación.ordenacionPorPrecio();
+                    menu.ordenacionPorPrecio();
                     break;
                 case 5:
-                    ordenación.ordenacionPorPeso();
+                    menu.ordenacionPorPeso();
                     break;
                 case 6:
-                    ordenación.ordenacionPorVolumen();
+                    menu.ordenacionPorVolumen();
                     break;
             }
         }

@@ -6,11 +6,11 @@ import java.util.Collections;
 /**
  * Created by marco on 10/5/17.
  */
-public class Ordenación {
+public class Menu {
 
     private ArrayList<Producto> productos;
 
-    public Ordenación(){
+    public Menu(){
         productos = new ArrayList<>();
     }
 
