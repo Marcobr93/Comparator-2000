@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35e6f1d2-8b02-4416-ab7e-1e3418269780" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/company/Model/Ordenación.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/company/Controller/ProductosApp.java" afterPath="$PROJECT_DIR$/src/org/company/Controller/ProductosApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/company/Main.java" afterPath="$PROJECT_DIR$/src/org/company/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/company/Model/Producto.java" afterPath="$PROJECT_DIR$/src/org/company/Model/Producto.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -628,7 +623,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1494428888906</updated>
-      <workItem from="1494428890204" duration="5456000" />
+      <workItem from="1494428890204" duration="5468000" />
     </task>
     <task id="LOCAL-00001" summary="Estructura">
       <created>1494429208638</created>
@@ -637,11 +632,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494429208638</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Estructura">
+      <created>1494435831400</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1494435831400</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5456000" />
+    <option name="totallyTimeSpent" value="5468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="515" y="23" width="1182" height="890" extended-state="0" />
